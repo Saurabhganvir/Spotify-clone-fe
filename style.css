@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+ body{
+    background-color: antiquewhite;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ nav{
+    font-family: 'PlayFair+Display', sans-serif;
+ }
+
+ nav ul{
+    display: flex;
+    align-items: center ;
+    list-style-type:none;
+    height: 5rem;
+    background-color: black;
+    color: white;
+ }
+
+ nav ul li{
+    padding: 0 1rem;
+ }
+
+ .brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+ }
+
+ .brand img{
+    width: 3.5rem;
+    padding: 0 1rem;
+ }
+
