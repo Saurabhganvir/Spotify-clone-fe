@@ -1,1 +1,3 @@
-# h1 This is a comprehensive overlook of spotify
+# This is a comprehensive overlook of spotify
+
+1) It uses javascript, HTML and CSS 
