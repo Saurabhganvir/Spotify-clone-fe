@@ -25,35 +25,35 @@
             <div class="songItemContainer">
                 <div class="songItem border">
                     <img src="StaticFiles/covers/1.jpg" alt="1">
-                    <span>Let me Love you <span class="timeStamp"> 5:04 </span> <i class="far fa-play-circle" style="font-size: 1.5rem;"></i> </span>
+                    <span class="songName"></span> <span class="timeStamp"> 5:04 </span> <i id="1" class="far songItemPlay fa-play-circle" style="font-size: 1.5rem;"></i> 
                 </div>
                 <div class="songItem border">
-                    <img src="StaticFiles/covers/1.jpg" alt="1">
-                    <span>Let me Love you <span class="timeStamp"> 5:04 </span> <i class="far fa-play-circle" style="font-size: 1.5rem;"></i> </span>
+                    <img src="StaticFiles/covers/2.jpg" alt="1">
+                    <span class="songName"></span> <span class="timeStamp"> 5:04 </span> <i id="2" class="far songItemPlay fa-play-circle" style="font-size: 1.5rem;"></i>
                 </div>
                 <div class="songItem border">
-                    <img src="StaticFiles/covers/1.jpg" alt="1">
-                    <span>Let me Love you <span class="timeStamp"> 5:04 </span> <i class="far fa-play-circle" style="font-size: 1.5rem;"></i> </span>
+                    <img src="StaticFiles/covers/3.jpg" alt="1">
+                    <span class="songName"></span> <span class="timeStamp"> 5:04 </span> <i id="3" class="far songItemPlay fa-play-circle" style="font-size: 1.5rem;"></i>
                 </div>
                 <div class="songItem border">
-                    <img src="StaticFiles/covers/1.jpg" alt="1">
-                    <span>Let me Love you <span class="timeStamp"> 5:04 </span> <i class="far fa-play-circle" style="font-size: 1.5rem;"></i> </span>
+                    <img src="StaticFiles/covers/4.jpg" alt="1">
+                    <span class="songName"> </span><span class="timeStamp"> 5:04 </span> <i id="4" class="far songItemPlay fa-play-circle" style="font-size: 1.5rem;"></i> </span>
                 </div>
                 <div class="songItem border">
-                    <img src="StaticFiles/covers/1.jpg" alt="1">
-                    <span>Let me Love you <span class="timeStamp"> 5:04 </span> <i class="far fa-play-circle" style="font-size: 1.5rem;"></i> </span>
+                    <img src="StaticFiles/covers/5.jpg" alt="1">
+                    <span class="songName"> </span><span class="timeStamp"> 5:04 </span> <i id="5" class="far songItemPlay fa-play-circle" style="font-size: 1.5rem;"></i>
                 </div>
                 <div class="songItem border">
-                    <img src="StaticFiles/covers/1.jpg" alt="1">
-                    <span>Let me Love you <span class="timeStamp"> 5:04 </span> <i class="far fa-play-circle" style="font-size: 1.5rem;"></i> </span>
+                    <img src="StaticFiles/covers/6.jpg" alt="1">
+                    <span class="songName"> </span><span class="timeStamp"> 5:04 </span> <i id="6" class="far songItemPlay fa-play-circle" style="font-size: 1.5rem;"></i> 
                 </div>
                 <div class="songItem border">
-                    <img src="StaticFiles/covers/1.jpg" alt="1">
-                    <span>Let me Love you <span class="timeStamp"> 5:04 </span> <i class="far fa-play-circle" style="font-size: 1.5rem;"></i> </span>
+                    <img src="StaticFiles/covers/7.jpg" alt="1">
+                    <span class="songName"> </span><span class="timeStamp"> 5:04 </span> <i id="7" class="far songItemPlay fa-play-circle" style="font-size: 1.5rem;"></i>
                 </div>
                 <div class="songItem border">
-                    <img src="StaticFiles/covers/1.jpg" alt="1">
-                    <span>Let me Love you <span class="timeStamp"> 5:04 </span> <i class="far fa-play-circle" style="font-size: 1.5rem;"></i> </span>
+                    <img src="StaticFiles/covers/8.jpg" alt="1">
+                    <span class="songName"></span> <span class="timeStamp"> 5:04 </span> <i id="8" class="far songItemPlay fa-play-circle" style="font-size: 1.5rem;"></i> 
                 </div>
             </div>
         </div>
@@ -62,14 +62,14 @@
     
     
         <div class="bottom">
-            <input type="range" name="range" id="myProgressBar"  min="0" max="100">
+            <input type="range" name="range" id="myProgressBar"  min="0" value="0" max="100">
             <div class="icons border">
-                <i class="fa-solid fa-3x fa-backward-step"></i>
-                <i class="far fa-3x fa-play-circle"></i>
-                <i class="fa-solid fa-3x fa-forward-step"></i>
+                <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+                <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+                <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
             </div>
             <div class="songInfo border">
-                <img src="./StaticFiles/playing.gif" width="5rem"> <span>NCS -Trance Nitro</span>
+                <img src="./StaticFiles/playing.gif" width="5rem" id="gif"> <span>NCS -Trance Nitro</span>
             </div>
         </div>
     
